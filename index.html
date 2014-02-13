@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -61,6 +60,13 @@
                 <div class="modal-txt">
                     <img src="img/badge/Mortarboard.png" /><br>
                     <span>You're almost a team&nbsp;member</span>
+                </div>
+            </article>
+            <article id="modalGames" class="modal-item">
+                <span class="modal-title">Bazinga!</span>
+                <div class="modal-txt">
+                    <img src="img/Games.png" /><br>
+                    <span>You're a Product Owner</span>
                 </div>
             </article>
         </div>
@@ -310,7 +316,7 @@
                                 </p>
                                 </div>
                             </div><!-- /#codecademy -->
-                            <div class="item left" id="treehouse">
+                            <div class="item left" id="udemy">
                                 <div class="info dark">
                                 <h2>Udemy</h2>
                                 <p>
@@ -351,13 +357,13 @@
                                 <div class="info dark" style="display: block; border: 2px solid #FFF;">
                                 <h2>Codecademy</h2>
                                 <p>
-                                    Learning-by-doing online courses for coding<br><br>
-                                    Over 24M users<br>
++                                   Learning-by-doing online courses for coding<br><br>
++                                   Over 24M users<br>
                                     Received $12.5M funding<br><br>
                                 </p>
                                 </div>
                             </div><!-- /#codecademy -->
-                            <div class="item left" id="treehouse">
+                            <div class="item left" id="udemy">
                                 <div class="info dark" style="display: block; border: 2px solid #FFF;">
                                 <h2>Udemy</h2>
                                 <p>
@@ -375,6 +381,7 @@
             <div class="page-inner">
             <div>
                 <h1>Competition</h1>
+                                <table class="competition">
                     <thead>
                         <tr>
                             <td></td>
@@ -471,6 +478,43 @@
         <section id="slideThirdLevel" class="level" data-transition="zoom">
             <h1>Level</h1>
             <span class="levelnumber">#3</span>
+            <p class="level-description">Product</p>
+        </section><!-- /#slideThirdLevel.level --> 
+                
+        <section class="light page" data-background="#d0d0d0">
+            <div class="page-inner">
+            <h1>Landingpage</h1>
+            <img src="img/product-landingpage.png" class="screenshot">
+          </div>
+        </section>
+                
+        <section class="light page" data-background="#d0d0d0">
+            <div class="page-inner">
+            <h1>Kapitelübersicht</h1>
+            <img src="img/product-kapiteluebersicht.png" class="screenshot">
+          </div>
+        </section>
+                
+        <section class="light page" data-background="#d0d0d0">
+            <div class="page-inner">
+            <h1>Quizmodul</h1>
+            <img src="img/product-quizmodul.png" class="screenshot">
+          </div>
+        </section>
+                
+        <section class="light page" data-background="#d0d0d0">
+            <div class="page-inner">
+            <h1>Zertifikat</h1>
+            <img src="img/product-zertifikat.png" class="screenshot">
+          </div>
+        </section>
+        
+        <section id="slideBadgeGames" data-transition="zoom">
+        </section>
+                                
+        <section id="slideFourthLevel" class="level" data-transition="zoom">
+            <h1>Level</h1>
+            <span class="levelnumber">#4</span>
             <p class="level-description">The Team</p>
         </section><!-- /#slideSecondLevel.level --> 
 
@@ -488,6 +532,7 @@
           </div><!-- /.page-inner -->
         </section><!-- /#slideTeam -->
 
+        <!-- 
         <section id="slideTeamDev" class="light page" data-background="#d0d0d0">
             <div class="page-inner">
             <h1 style="margin-bottom:0;">Team: The devs</h1>
@@ -505,19 +550,14 @@
                   <img src="img/team/malte_kosian.jpg">
               </div>
             </div>
-          </div><!-- /.page-inner -->
-        </section><!-- /#slideTeamDev -->
+          </div>
+        </section>
+        -->
+        
         <section id="slideTeamDev" class="light page" data-background="#d0d0d0">
             <div class="page-inner">
             <h1 style="margin-bottom:0;">Team: The devs</h1>
             <div class="team team-dev hover-items">
-                <div class="item member">
-                    <img src="img/team/oliver_hermanni.jpg">
-                    <div class="info">
-                        <h2>Oliver Hermanni</h2>
-                        <p>Game/Full Stack Developer<br></p>
-                    </div>
-                </div>
                 <div class="item member">
                     <img src="img/team/gregor_swatek.jpg">
                     <div class="info">
@@ -529,14 +569,14 @@
                     <img src="img/team/benedict_ernst.jpg"> 
                     <div class="info">
                         <h2>Benedict Ernst</h2>
-                        <p>Full Stack Developer<br>
+                        <p>Frontend-Developer<br>
                     </div>
                 </div>
                 <div class="item member">
                     <img src="img/team/malte_kosian.jpg">
                     <div class="info">
-                        <h2>Malte Kosian</h2>
-                        <p>Game Designer/Developer</p>
+                        <h2>Markus Schwarz</h2>
+                        <p>Backend-Developer</p>
                     </div>
                 </div>
             </div>
@@ -548,27 +588,37 @@
             <h1 style="margin-bottom:0;">Team: The Non devs</h1>
             <div class="team team-nondev hover-items">
               <div class="item member">
-                  <img src="img/team/nadine_michalske.jpg">
-              </div>
-              <div class="item member">
-                  <img src="img/team/ira_tittler.jpg">
+                  <img src="img/team/amir_rahbaran.jpeg">
+                  <div class="info">
+                  	<h2>Amir Rahbaran</h2>
+                  	<p>Strategy and Product Management</p>
+                  </div>
               </div>
               <div class="item member">
                   <img src="img/team/thomas_reimers.jpg">
+                  <div class="info">
+                  	<h2>Thomas Reimers</h2>
+                  	<p>Bizdev and Finance</p>
+                  </div>
               </div>
               <div class="item member">
                   <img src="img/team/hendric_ruesch.jpg">
+                  <div class="info">
+                  	<h2>Hendric Rüsch</h2>
+                  	<p>Mentor and Business Relations</p>
+                  </div>
               </div>
             </div>
           </div><!-- /.page-inner -->
         </section><!-- /#slideTeamNonDev -->
 
+        <!--
         <section id="slideTeamNonDev" class="light page" data-background="#d0d0d0">
             <div class="page-inner">
             <h1 style="margin-bottom:0;">Team: The Non devs</h1>
             <div class="team team-nondev hover-items">
                 <div class="item member">
-                    <img src="img/team/nadine_michalske.jpg">
+                    <img src="img/team/amir_rahbaran.jpeg">
                     <div class="info">
                         <h2>Amir Rahbaran</h2>
                         <p>Strategy and Product Management</p>
@@ -596,9 +646,11 @@
                     </div>
                 </div>
             </div>
-          </div><!-- /.page-inner -->
-        </section><!-- /#slideTeamNonDev -->
-<!--
+          </div>
+        </section>
+        -->
+        
+				<!--
         <section id="slideTechTalk" class="light page" data-background="#d0d0d0">
             <div class="page-inner">
                 <h1>Tech talk</h1>
@@ -610,7 +662,8 @@
                 </ul>
           </div>
         </section>
--->
+				-->
+        
         <section id="slideBadgeMortarboard" data-transition="zoom">
             <!-- Badge -->
         </section>
