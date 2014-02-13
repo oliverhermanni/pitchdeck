@@ -25,6 +25,9 @@ $(document).ready(function(){
 			case 'slideBadgeMortarboard':
 				showModal('modalMortarboard');
 				break;
+			case 'slideBadgeGames':
+				showModal('modalGames');
+				break;
 		}
 	});
 
